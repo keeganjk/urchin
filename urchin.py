@@ -82,9 +82,9 @@ def build_cli():
                 sys.stdout.write("\r" + "[100%] ##################")
                 sys.stdout.flush()
 		print ""
+		print ""
 		print fn + " built !"
 		print "For compilation help, see https://github.com/keeganjk/urchin."
-		break
 
 def q():
 	print ""
@@ -95,6 +95,7 @@ def q():
 	qq = raw_input(">>> ")
 	if qq == "0":
 		build_cli()
+		q()
 	elif qq == "1":
 		connect()
 	else:
