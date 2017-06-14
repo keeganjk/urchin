@@ -60,6 +60,7 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 >     1. Download and install [py2exe](https://sourceforge.net/projects/py2exe/ "py2exe").
 >     2. Open CMD and run this command: `python filename.py py2exe`
 >     3. Send EXE to victim, put it in a ZIP file if you can't send an EXE.
+>
 >   If the victim is using MacOS:
 >     1. Open the terminal and type `chmod +x filename.py`
 >     2. Put the file in a folder
