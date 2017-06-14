@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import socket, os, sys
+import socket, os, sys, platform
 
 def connect():
 	host = socket.gethostname()
@@ -101,8 +101,11 @@ def q():
 	else:
 		q()
 
-os.system("cls > /dev/null")
-os.system("clear > NUL")
+if 'Windows' in platform.system():
+	os.system("cls")
+else:
+	os.system("clear")
+	
 print "                     |     |   | ,---` ,---` |   | ----- ,---`"
 print "                   \ * /   |   | |   | |     |   |   |   |   |"
 print "                   -*+*-   |   | |---, |     |---|   |   |   |"
