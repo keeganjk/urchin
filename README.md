@@ -31,20 +31,40 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 
 <hr>
 
-> ### 4. Enable JavaScript and Pop-ups
-> After opening <code>index.htm</code>, you have to enable pop-ups and JavaScript (for <code>index.htm</code>).
-> This will be different in every browser, but it is usually in Settings.
-> JavaScript will most likely be enabled, but Pop-ups may be disabled.
+> ### 4. Run `urchin.py`
+> To run `urchin.py`, the process is different depending on your operating system.
+> On Windows:
+>   1. Click on `urchin.py` and Python will run it.
+> On MacOS/Linux:
+>   1. Open the terminal.
+>   2. Navigate to `urchin.py`
+>   3. Type `chmod +x *` to allow e`x`ecution of all files in the directory.
+>   4. You can run `urchin.py` by any of the below methods:
+>        1. Click on `urchin.py`
+>        2. Run `./urchin.py`
+>        3. Run `python urchin.py`
 
 <hr>
 
-> ### 5. Set Wait Time and Click Start
-> Click the button that says "Set Wait Time" and then set a time to wait in milliseconds between page closes.
-> Next, click the button that says, "Start!" and random pages will randomly open and close.
-> To stop the process, close the page with "Smokescreen" in the title.
-> > <b>WARNING! If you have a data limit, do not use this program unless you expect to be charged or prevented from continuing web browsing; this uses random page generation to pollute, or make a "smokescreen" over your browser history. Also, putting the wait time too low can cause crashes, denial-of-service to yourself, and difficulty to stop the script.</b>
+> ### 6. Build client
+> Once you run the script, type `0` and then press enter.
+> Next, type your (the server's) IP Address and press enter.
+> Type a filename and the client should be generated almost instantly.
 
-## Credits
-[Brushed Alum pattern](https://www.toptal.com/designers/subtlepatterns/brushed-alum/ "Brushed Alum Pattern"), Tim Ward
+<hr>
 
-[Raleway Font](https://fonts.google.com/specimen/Raleway "Raleway Font"), [Google Fonts](https://fonts.google.com "Google Fonts"), Multiple Designers
+> ### 7. Give the file to a victim.
+> After building the client, you will need to give it to a victim.
+> The victim will need to have `Python 2` installed, unless you use the methods below:
+>   If the victim is using Windows:
+>     1. Download and install [py2exe](https://sourceforge.net/projects/py2exe/ "py2exe").
+>     2. Open CMD and run this command: `python filename.py py2exe`
+>     3. Send EXE to victim, put it in a ZIP file if you can't send an EXE.
+>   If the victim is using MacOS:
+>     1. Open the terminal and type `chmod +x filename.py`
+>     2. Put the file in a folder
+>     3. Open Disk Utility.
+>     4. From the top menu, select `File` > `New Image` > `Image from Folder...`
+>     5. A DMG will be generated.
+>     6. Send it to your victim.
+>   If the victim is on Linux, you're just about out of luck on compilations. They'll have to `chmod` and run by themself.
