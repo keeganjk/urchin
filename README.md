@@ -12,23 +12,22 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 
 ## How to use it
 > ### 1. Download
-> Firstly, on any OS, you would navigate to https://github.com/keeganjk/smokescreen. Once on this page, click the button that says "Clone or Download" and then "Download as ZIP".
+> Firstly, on any OS, you would navigate to https://github.com/keeganjk/urchin. Once on this page, click the button that says "Clone or Download" and then "Download as ZIP".
 > <br />
-> ![Clone or Download](https://github.com/keeganjk/smokescreen/blob/master/images/download.gif?raw=true "")
+> ![Clone or Download](https://github.com/keeganjk/urchin/blob/master/img/clone%20or%20download.gif?raw=true "")
 > <br />
-> If you are on Unix (Linux, macOS, or BSD), you can type <code>git clone https://github.com/keeganjk/smokescreen</code> into the terminal to 
+> If you are on Unix (Linux, macOS, or BSD), you can type <code>git clone https://github.com/keeganjk/urchin</code> into the terminal to 
 > clone this repository and then <code>mv</code> into the directory. If you do this, skip to step 3.
 
 <hr>
 
 > ### 2. Extract files
-> Nextly, extract the ZIP file and then move into the <code>smokescreen</code> folder.
+> Nextly, extract the ZIP file and then move into the <code>urchin</code> folder.
 
 <hr>
 
-> ### 3. Open 'index.htm'
-> Open <code>index.htm</code> with any web modern browser.
-> ![Clicking on index.htm](https://github.com/keeganjk/smokescreen/blob/master/images/index.GIF?raw=true "")
+> ### 3. Download and install `Python 2` if not already installed
+> Navigate to [Python Downloads](https://www.python.org/downloads/release/python-2713) and download `Python 2` for your OS.
 
 <hr>
 
