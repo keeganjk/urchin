@@ -38,11 +38,11 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 > On MacOS/Linux:
 >   1. Open the terminal.
 >   2. Navigate to `urchin.py`
->   3. Type `chmod +x *` to allow e`x`ecution of all files in the directory.
->   4. You can run `urchin.py` by any of the below methods:
->        1. Click on `urchin.py`
->        2. Run `./urchin.py`
->        3. Run `python urchin.py`
+>   3. Type `mv urchin.py urchin; chmod +x *` to allow e`x`ecution of all files in the directory.
+>   4. You can run `urchin` by any of the below methods:
+>        1. Click on `urchin`
+>        2. Run `./urchin`
+>        3. Run `python urchin`
 
 <hr>
 
@@ -62,7 +62,7 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 >     3. Send EXE to victim, put it in a ZIP file if you can't send an EXE.<br/>
 >
 >   If the victim is using MacOS:<br/>
->     1. Open the terminal and type `chmod +x filename.py`<br/>
+>     1. Open the terminal and type `chmod +x filename`<br/>
 >     2. Put the file in a folder<br/>
 >     3. Open Disk Utility.<br/>
 >     4. From the top menu, select `File` > `New Image` > `Image from Folder...`<br/>
