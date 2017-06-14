@@ -101,8 +101,8 @@ def q():
 	else:
 		q()
 
-os.system("cls")
-os.system("clear")
+os.system("cls > /dev/null")
+os.system("clear > NUL")
 print "                     |     |   | ,---` ,---` |   | ----- ,---`"
 print "                   \ * /   |   | |   | |     |   |   |   |   |"
 print "                   -*+*-   |   | |---, |     |---|   |   |   |"
