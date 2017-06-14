@@ -1,27 +1,21 @@
-# smokescreen
+# urchin
 ~~~                                      
-  |     |   | ,---` ,---` |   | ----- ,---`
-\ * /   |   | |   | |     |   |   |   |   |
--*+*-   |   | |---, |     |---|   |   |   |
-/ * \   |   | |  \  |     |   |   |   |   |
-  |     `___, |   \ `___, |   | ----- |   |
+                                           |     |   | ,---` ,---` |   | ----- ,---`
+                                         \ * /   |   | |   | |     |   |   |   |   |
+                                         -*+*-   |   | |---, |     |---|   |   |   |
+                                         / * \   |   | |  \  |     |   |   |   |   |                                                                                      |     `___, |   \ `___, |   | ----- |   |
 ~~~
 
-A JavaScript program that constantly opens random sites from a list to make a "smokescreen" over your browser history.
+Reverse shell that lets you connect to others computers through the shell when they run the client.
 
 ### Supported platforms:
-> <h5>Any OS with a modern web browser</h5>
-### Supported browsers:
-> <h5>Firefox</h5>
-> <h5>Google Chrome</h5>
-> <h5>Microsoft Edge</h5>
-> <h5>Opera</h5>
-> <h5>Safari</h5>
+> <h5>Windows</h5>
+> <h5>MacOS</h5>
+> <h5>Linux</h5>
 
 ## What is it?
-Smokescreen is a simple JavaScript program that randomly opens sites from a long list of popular URLs from many categories. This will act as a mask, or "smokescreen" over your browsing history, to troll, confuse, and confound the prying eyes of those who may be spying on your browser history.
-### Why?
-In 2017, the US president signed a bill that would allow ISPs to obtain access to your browser history and sell it to whoever they please. This could mean government agencies, large advertisement businesses, or if they really wanted to, your creepy neighbor next-door. This will make it more difficult for your ISPs to find or sell real history to others, thus preventing your information from being compromised.
+Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send commands over the Internet. Urchin is a reverse-shell, meaning that an attacker can host a server and get the victim to run a client. The client will connect the user to the server, which will grant the attacker shell access to the victim's computer.
+
 ## How to use it
 > ### 1. Download
 > Firstly, on any OS, you would navigate to https://github.com/keeganjk/smokescreen. Once on this page, click the button that says "Clone or Download" and then "Download as ZIP".
