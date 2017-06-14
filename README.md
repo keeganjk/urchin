@@ -56,16 +56,25 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 > ### 7. Give the file to a victim.
 > After building the client, you will need to give it to a victim.
 > The victim will need to have `Python 2` installed, unless you use the methods below:
->   If the victim is using Windows:
+>   If the victim is using Windows:<br/>
 >     1. Download and install [py2exe](https://sourceforge.net/projects/py2exe/ "py2exe"). <br/>
 >     2. Open CMD and run this command: `python filename.py py2exe`<br/>
 >     3. Send EXE to victim, put it in a ZIP file if you can't send an EXE.<br/>
 >
->   If the victim is using MacOS:
->     1. Open the terminal and type `chmod +x filename.py`
->     2. Put the file in a folder
->     3. Open Disk Utility.
->     4. From the top menu, select `File` > `New Image` > `Image from Folder...`
->     5. A DMG will be generated.
->     6. Send it to your victim.
+>   If the victim is using MacOS:<br/>
+>     1. Open the terminal and type `chmod +x filename.py`<br/>
+>     2. Put the file in a folder<br/>
+>     3. Open Disk Utility.<br/>
+>     4. From the top menu, select `File` > `New Image` > `Image from Folder...`<br/>
+>     5. A DMG will be generated.<br/>
+>     6. Send it to your victim.<br/>
+> 
 >   If the victim is on Linux, you're just about out of luck on compilations. They'll have to `chmod` and run by themself.
+
+<hr>
+
+> ### 8. Allow connections
+> Make sure that you allow connections before the client runs the file.
+> Once the client has connected, you will pbe notified and you will have a command prompt.
+> From here, you can enter commands.
+> Happy hacking!
