@@ -53,7 +53,7 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 
 > ### 7. Give the file to a victim.
 > After building the client, you will need to give it to a victim.
-> The victim will need to have `Python 2` installed, unless you use the methods below:
+> The victim will need to have `Python 2` installed, unless you use the methods below:<br/>
 >   If the victim is using Windows:<br/>
 >     1. Download and install [py2exe](https://sourceforge.net/projects/py2exe/ "py2exe"). <br/>
 >     2. Open CMD and run this command: `python filename.py py2exe`<br/>
