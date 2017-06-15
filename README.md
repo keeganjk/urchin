@@ -22,7 +22,7 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 <hr>
 
 > ### 2. Extract files
-> Nextly, extract the ZIP file and then move into the <code>urchin</code> folder.
+> Nextly, extract the ZIP file and then move into the `urchin` folder.
 
 <hr>
 
@@ -47,9 +47,7 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 <hr>
 
 > ### 6. Build client
-> Once you run the script, type `0` and then press enter.
-> Next, type your (the server's) IP Address and press enter.
-> Type a filename and the client should be generated almost instantly.
+> Edit `client.py`. Find the line that says `host = 127.0.0.1`. Replace `127.0.0.1` with  the server's IP Address.
 
 <hr>
 
@@ -74,8 +72,8 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 <hr>
 
 > ### 8. Allow connections
-> Make sure that you allow connections before the client runs the file.
-> Once the client has connected, you will pbe notified and you will have a command prompt.
-> From here, you can enter commands.
+> Run `urchin` before the client runs the file.
+> Once the client has connected, you will be notified and you will have a command prompt of `$ `.
+> From here, you can enter commands to run on the client.
 >
 > Happy hacking!
