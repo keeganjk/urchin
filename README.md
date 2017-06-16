@@ -38,8 +38,9 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 > On MacOS/Linux:
 >   1. Open the terminal.
 >   2. Navigate to `urchin.py`
->   3. Type `mv urchin.py urchin; chmod +x *` to allow e`x`ecution of all files in the directory.
->   4. You can run `urchin` by any of the below methods:
+>   3. Type `chmod +x *` to allow e`x`ecution of all files in the directory.
+>   4. You will have to remove the `.py` extension or replace it with `.command`.
+>   5. You can run `urchin` by any of the below methods:
 >        1. Click on `urchin`
 >        2. Run `./urchin`
 >        3. Run `python urchin`
