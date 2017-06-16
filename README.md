@@ -1,5 +1,5 @@
 # urchin
-![Starting image](https://github.com/keeganjk/urchin/blob/master/img/Capture.PNG?raw=true "")
+![Starting image](https://github.com/keeganjk/urchin/blob/master/img/Capture.PNG "Starting image")
 
 Reverse shell that lets you connect to others computers through the shell when they run the client.
 
