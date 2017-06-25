@@ -15,28 +15,28 @@ else:
 	os.system("clear")
 	col = os.popen("echo $COLUMNS", "r").read()
 	col = int(col)
-	string = print "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	string = "                     |     |   | ,---` ,---` |   | ----- ,---`"
 	string = string.center(col)
 	print string
-	string = print "                   \ * /   |   | |   | |     |   |   |   |   |"
+	string = "                   \ * /   |   | |   | |     |   |   |   |   |"
 	string = string.center(col)
 	print string
-	string = print "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	string = "                   -*+*-   |   | |---, |     |---|   |   |   |"
 	string = string.center(col)
 	print string
-	string = print "                   / * \   |   | |  \  |     |   |   |   |   |"
+	string = "                   / * \   |   | |  \  |     |   |   |   |   |"
 	string = string.center(col)
 	print string
-	string = print "                     |     `___, |   \ `___, |   | ----- |   |"
+	string = "                     |     `___, |   \ `___, |   | ----- |   |"
 	string = string.center(col)
 	print string
-	string = print ""
+	string = ""
 	string = string.center(col)
 	print string
-	string = print "                         Made by Keegan Kuhn (" + "\033[1;31m" + "keeganjk" + "\033[0;0m" + ")"
+	string = "                         Made by Keegan Kuhn (" + "\033[1;31m" + "keeganjk" + "\033[0;0m" + ")"
 	string = string.center(col)
 	print string
-	string = print "                                 Version: 1.0"
+	string = "                                 Version: 1.0"
 	string = string.center(col)
 	print string
 
