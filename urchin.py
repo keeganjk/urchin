@@ -12,34 +12,16 @@ if 'Windows' in platform.system():
 	print "                         Made by Keegan Kuhn (keeganjk)"
 	print "                                 Version: 1.0"
 else:
-	os.system("clear")
-	col = os.popen("echo $COLUMNS", "r").read()
-	col = int(col)
-	string = "                     |     |   | ,---` ,---` |   | ----- ,---`"
-	string = string.center(col)
-	print string
-	string = "                   \ * /   |   | |   | |     |   |   |   |   |"
-	string = string.center(col)
-	print string
-	string = "                   -*+*-   |   | |---, |     |---|   |   |   |"
-	string = string.center(col)
-	print string
-	string = "                   / * \   |   | |  \  |     |   |   |   |   |"
-	string = string.center(col)
-	print string
-	string = "                     |     `___, |   \ `___, |   | ----- |   |"
-	string = string.center(col)
-	print string
-	string = ""
-	string = string.center(col)
-	print string
-	string = "                                            Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
-	string = string.center(col)
-	print string
-	string = "                                 Version: 1.0"
-	string = string.center(col)
-	print string
-
+	os.system("clear")	
+	print "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	print "                   \ * /   |   | |   | |     |   |   |   |   |"
+	print "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	print "                   / * \   |   | |  \  |     |   |   |   |   |"
+	print "                     |     `___, |   \ `___, |   | ----- |   |"
+	print ""
+	print "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
+	print "                                 Version: 1.0"
+	
 port = 31337
 s = socket.socket()
 s.bind(('', port))
