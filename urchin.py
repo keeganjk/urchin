@@ -13,14 +13,28 @@ if 'Windows' in platform.system():
 	print "                                 Version: 1.0"
 else:
 	os.system("clear")	
-	print "                     |     |   | ,---` ,---` |   | ----- ,---`"
-	print "                   \ * /   |   | |   | |     |   |   |   |   |"
-	print "                   -*+*-   |   | |---, |     |---|   |   |   |"
-	print "                   / * \   |   | |  \  |     |   |   |   |   |"
-	print "                     |     `___, |   \ `___, |   | ----- |   |"
-	print ""
-	print "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
-	print "                                 Version: 1.0"
+	string = "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	length = len(string)
+	print string.center(length)
+	string = "                   \ * /   |   | |   | |     |   |   |   |   |"
+	length = len(string)
+	print string.center(length)
+	string = "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	length = len(string)
+	print string.center(length)
+	string = "                   / * \   |   | |  \  |     |   |   |   |   |"
+	length = len(string)
+	print string.center(length)
+	string = "                     |     `___, |   \ `___, |   | ----- |   |"
+	length = len(string)
+	print string.center(length)
+	string = ""
+	string = "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
+	length = len(string) - 12
+	print string.center(length)
+	string = "                                 Version: 1.0"
+	length = len(string)
+	print string.center(length)
 	
 port = 31337
 s = socket.socket()
