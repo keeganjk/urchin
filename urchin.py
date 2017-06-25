@@ -3,18 +3,25 @@ import socket, os, sys, platform
 
 if 'Windows' in platform.system():
 	os.system('cls')
+	print "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	print "                   \ * /   |   | |   | |     |   |   |   |   |"
+	print "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	print "                   / * \   |   | |  \  |     |   |   |   |   |"
+	print "                     |     `___, |   \ `___, |   | ----- |   |"
+	print ""
+	print "                         Made by Keegan Kuhn (keeganjk)"
+	print "                                 Version: 1.0"
 else:
 	os.system("clear")
+	print "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	print "                   \ * /   |   | |   | |     |   |   |   |   |"
+	print "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	print "                   / * \   |   | |  \  |     |   |   |   |   |"
+	print "                     |     `___, |   \ `___, |   | ----- |   |"
+	print ""
+	print "                         Made by Keegan Kuhn (" + "\033[1;31m" + "keeganjk" + "\033[0;0m" + ")"
+	print "                                 Version: 1.0"
 
-
-print "                     |     |   | ,---` ,---` |   | ----- ,---`"
-print "                   \ * /   |   | |   | |     |   |   |   |   |"
-print "                   -*+*-   |   | |---, |     |---|   |   |   |"
-print "                   / * \   |   | |  \  |     |   |   |   |   |"
-print "                     |     `___, |   \ `___, |   | ----- |   |"
-print ""
-print "                         Made by Keegan Kuhn (keeganjk)"
-print "                                 Version: 1.0"
 
 port = 31337
 s = socket.socket()
