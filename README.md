@@ -1,5 +1,5 @@
 # urchin
-<div style="text-align:center"><img src ="https://github.com/keeganjk/urchin/blob/master/img/urchin.GIF" /></div>
+<div style="text-align:center"><img src ="https://github.com/keeganjk/urchin/blob/master/img/urchin.GIF?raw=true" /></div>
 
 Reverse shell that lets you connect to others computers through the shell when they run the client.
 
