@@ -24,9 +24,9 @@ else:
 	print string.center(int(width))
 	string = "                     |     `___, |   \ `___, |   | ----- |   |"
 	print string.center(int(width))
-	string = ""
+	print ""
 	string = "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
-	print string.center(int(width) - 12)
+	print string.center(int(width) + 12)
 	string = "                                 Version: 1.0"
 	print string.center(int(width))
 	
