@@ -13,22 +13,14 @@ if 'Windows' in platform.system():
 	print "                                 Version: 1.0"
 else:
 	os.system("clear")	
-	width = os.popen("echo $COLUMNS", "r").read()
-	string = "                     |     |   | ,---` ,---` |   | ----- ,---`"
-	print string.center(int(width))
-	string = "                   \ * /   |   | |   | |     |   |   |   |   |"
-	print string.center(int(width))
-	string = "                   -*+*-   |   | |---, |     |---|   |   |   |"
-	print string.center(int(width))
-	string = "                   / * \   |   | |  \  |     |   |   |   |   |"
-	print string.center(int(width))
-	string = "                     |     `___, |   \ `___, |   | ----- |   |"
-	print string.center(int(width))
+	print "                     |     |   | ,---` ,---` |   | ----- ,---`"
+	print "                   \ * /   |   | |   | |     |   |   |   |   |"
+	print "                   -*+*-   |   | |---, |     |---|   |   |   |"
+	print "                   / * \   |   | |  \  |     |   |   |   |   |"
+	print "                     |     `___, |   \ `___, |   | ----- |   |"
 	print ""
-	string = "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
-	print string.center(int(width) + 19)
-	string = "                                 Version: 1.0"
-	print string.center(int(width))
+	print "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
+	print "                                 Version: 1.0"
 	
 port = 31337
 s = socket.socket()
