@@ -33,7 +33,7 @@ else:
 	string = ""
 	string = string.center(col)
 	print string
-	string = "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)                   "
+	string = "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)                  _"
 	string = string.center(col)
 	print string
 	string = "                                 Version: 1.0"
