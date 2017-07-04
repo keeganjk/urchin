@@ -78,5 +78,3 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 > Once the client has connected, you will be notified and you will have a command prompt of `$ `.
 > From here, you can enter commands to run on the client.
 > Type `quit` to close the connection.
->
-> Happy hacking!
