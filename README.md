@@ -9,7 +9,7 @@ Reverse shell that lets you connect to others computers through the shell when t
 > <h5>Linux</h5>
 
 ## What is it?
-Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send commands over the Internet. Urchin is a reverse-shell, meaning that an attacker can host a server and get the victim to run a client. The client will connect the user to the server, which will grant the attacker shell access to the victim's computer.
+Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send commands over the Internet. Urchin is a reverse-shell, meaning that a server can host a server and get the client to run the client script. The client will connect the user to the server, which will grant the server shell access to the client's computer.
 
 ## How to use it
 > ### 1. Download
@@ -53,23 +53,23 @@ Urchin is a reverse shell that is writen in `Python 2`. It uses `socket` to send
 
 <hr>
 
-> ### 7. Give the file to a victim.
-> After building the client, you will need to give it to a victim.
-> The victim will need to have `Python 2` installed, unless you use the methods below:<br/>
->   If the victim is using Windows:<br/>
+> ### 7. Give the file to client.
+> After building the client, you will need to give it to a client.
+> The client will need to have `Python 2` installed, unless you use the methods below:<br/>
+>   If the client is using Windows:<br/>
 >     1. Download and install [py2exe](https://sourceforge.net/projects/py2exe/ "py2exe"). <br/>
 >     2. Open CMD and run this command: `python filename.py py2exe`<br/>
->     3. Send EXE to victim, put it in a ZIP file if you can't send an EXE.<br/>
+>     3. Send EXE to client, put it in a ZIP file if you can't send an EXE.<br/>
 >
->   If the victim is using MacOS:<br/>
+>   If the client is using MacOS:<br/>
 >     1. Open the terminal and type `chmod +x filename`<br/>
 >     2. Put the file in a folder<br/>
 >     3. Open Disk Utility.<br/>
 >     4. From the top menu, select `File` > `New Image` > `Image from Folder...`<br/>
 >     5. A DMG will be generated.<br/>
->     6. Send it to your victim.<br/>
+>     6. Send it to your client.<br/>
 > 
->   If the victim is on Linux, you're just about out of luck on compilations. They'll have to `chmod` and run by themself.
+>   If the client is on Linux, you're just about out of luck on compilations. They'll have to `chmod` and run by themself.
 
 <hr>
 
