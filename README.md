@@ -8,7 +8,7 @@
 / * \   |  | | \  |    |  |  |  |  |
    |     `__, |  \ `__, |  | --- |  |
 
-Developer : Keegan Kuhn (keeganjk)
+Developer : keeganjk
 Version   : v1.4 (Pickelhelm)
 ~~~
  
