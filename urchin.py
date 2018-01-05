@@ -9,7 +9,7 @@ if 'Windows' in platform.system():
 	print "                   / * \   |   | |  \  |     |   |   |   |   |"
 	print "                     |     `___, |   \ `___, |   | ----- |   |"
 	print ""
-	print "                         Made by Keegan Kuhn (keeganjk)"
+	print "                               Made by keeganjk"
 	print "                                 Version: 1.0"
 else:
 	os.system("clear")	
@@ -19,7 +19,7 @@ else:
 	print "                   / * \   |   | |  \  |     |   |   |   |   |"
 	print "                     |     `___, |   \ `___, |   | ----- |   |"
 	print ""
-	print "                         Made by Keegan Kuhn (\033[1;31mkeeganjk\033[0;0m)"
+	print "                               Made by \033[1;31mkeeganjk\033[0;0m"
 	print "                                 Version: 1.0"
 	
 port = 31337
