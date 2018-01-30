@@ -1,5 +1,6 @@
 # urchin
-[![Donate](https://img.shields.io/badge/donate-%24-green.svg)](https://keeganjk.github.io/donate/)
+[![Donate](https://img.shields.io/badge/donate-%24-green.svg)](https://keeganjk.github.io/donate/) <br />
+![Python 2.7](https://img.shields.io/badge/python-v2.7-blue.svg)
 
  ~~~
    |     |  | ,--` ,--` |  | --- ,--`
