@@ -3,16 +3,16 @@
 
  ~~~
    |    |  | ,--` ,--` |  | --- ,--`
-\ * /   |  | |  | |    |  |  |  |  |
--*+*-   |  | |--, |    |--|  |  |  |
-/ * \   |  | | \  |    |  |  |  |  |
+\  * /  |  | |  | |    |  |  |  |  |
+--*+*-- |  | |--, |    |--|  |  |  |
+/  * \  |  | | \  |    |  |  |  |  |
    |    `__, |  \ `__, |  | --- |  |
 
 Developer : keeganjk
 Version   : v1.4 (Pickelhelm)
 ~~~
  
-Reverse shell that lets you connect to others computers through the shell when they run the client.
+Reverse shell that lets you connect to other devices through the shell when they run the client.
  
 ### Supported platforms:
 > <h5>Windows</h5>
